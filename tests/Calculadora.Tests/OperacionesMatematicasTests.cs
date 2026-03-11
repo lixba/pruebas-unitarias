@@ -45,4 +45,32 @@ public class OperacionesMatematicasTests
         //assert
         Assert.Equal(0, resultado);
     }
+
+    [Fact]
+    public void Restar_DosPositivos_RetornaLaResta()
+    {
+        //arrange       
+        int a = 3 ;
+        int b = 5;
+        
+        //act
+        var resultado = _operacionesMatematicas.Restar(a, b);
+        
+        //assert
+        Assert.Equal(-2, resultado);
+    }
+
+    [Fact]
+    public void restar_NegativoMasPositivo_RegresaValorCorrecto()
+    {
+        
+        int a = -3 ;
+        int b = 5;
+        
+        //act
+        var resultado = _operacionesMatematicas.Restar(a, b);
+        
+        //assert
+        Assert.Equal(-8, resultado);
+    }
 }
