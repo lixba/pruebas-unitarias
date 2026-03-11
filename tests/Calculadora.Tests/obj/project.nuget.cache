@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NB94OrCtzlg=",
+  "dgSpecHash": "1vBNA3nD5Zg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\UV\\Desktop\\GitHub\\pruebasUnitarias\\Calculadora.Tests\\Calculadora.Tests.csproj",
+  "projectFilePath": "C:\\Users\\UV\\Desktop\\GitHub\\pruebasUnitarias\\pruebas-unitarias\\tests\\Calculadora.Tests\\Calculadora.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UV\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\UV\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
